@@ -1,0 +1,74 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0
+}
+
+.verde{
+	background-color: chartreuse;
+	height: 6rem
+
+}
+
+.morado{
+	background-color: purple;
+	height: 30rem
+}
+
+.naranja{
+	background-color: orange;
+	height: 35rem
+
+}
+
+.rojo{
+	background-color: red;
+	height: 35rem
+}
+
+.rosado{
+	background-color: pink;
+	height: 30%
+}
+
+.amarillo{
+	background-color: yellow;
+	height: 70%
+}
+.verde1{
+	background-color: #07f280;
+	height: 20rem;
+}
+
+.verde2{
+	background-color: #088872;
+	height: 20rem;
+}
+
+.verde3{
+	background-color: #B7E632;
+	height: 20rem;
+}
+
+.row{
+	border-style: solid;
+	border-color: lightblue;
+}
+  
+
+
+/*aca comienza mi consulata de medios*/
+
+@media only screen and (max-width: 600px){.morado{
+	background-color: darkred;
+	height: 30rem
+
+	}
+}
+
+
+
+
